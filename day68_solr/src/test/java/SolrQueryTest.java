@@ -1,3 +1,4 @@
+import com.sun.scenario.effect.impl.sw.sse.SSEBlend_SRC_OUTPeer;
 import org.apache.solr.client.solrj.SolrQuery;
 import org.apache.solr.client.solrj.SolrServer;
 import org.apache.solr.client.solrj.SolrServerException;
@@ -11,8 +12,14 @@ import java.util.List;
 import java.util.Map;
 
 public class SolrQueryTest {
+
+    @Test
+    public void test1(){
+        System.out.println("我在改代码");
+    }
     @Test
     public void test() throws Exception {
+
         String url="http://localhost:8080/solr/item";
         SolrServer solrServer = new HttpSolrServer(url);
         SolrQuery query = new SolrQuery();
