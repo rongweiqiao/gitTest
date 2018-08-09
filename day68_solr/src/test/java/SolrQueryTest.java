@@ -17,6 +17,8 @@ public class SolrQueryTest {
     public void test1(){
         System.out.println("我在改代码");
         System.out.println("我在敲代码");
+        System.out.println("1111111111");
+
     }
     @Test
     public void test() throws Exception {
